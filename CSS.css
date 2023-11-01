@@ -1,0 +1,192 @@
+/* CSS Reset */
+/* font awesome cdn link */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --main-color:#2980b9;
+    --red:red;
+    --light-color:#777;
+    --light-bg:#eee;
+    --black:#2c3e50;
+    --white:#fff;
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.2);
+    --border:.1rem solid rgba(0,0,0,.2);
+
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background: url('img/bgi.jpg'); */
+    background-color: aqua;
+    font-size: 13px;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    
+
+}
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 35px;
+    top: 20px;
+}
+.left img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    height: 50px;
+    filter: invert(100%);
+}
+/* .left div{
+    line-height: 22px;
+     font-size: 20px;
+    text-align: center;
+    color: white;
+} */
+.mid{
+    display: block;
+    width: 65%;
+    margin: 20px auto;
+    /* border: 2px solid green;  */
+}
+
+.right{
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 19px;
+}
+.navbar li a{
+    text-decoration: none;   
+    color: white;
+    padding: 34px 23px;
+}
+.navbar li a:hover{
+    text-decoration: ;
+    color: blue;
+}
+/* .btn{
+    margin: 0px 3px;
+    background-color: rgb(155, 167, 163);
+    color: white;
+    padding: 2px 4px;
+    font-size: 14px;
+    border-radius: 7px;
+    cursor: pointer;
+} */
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: var(--white);
+    background-color: var(--main-color);
+    border-radius: .5rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Sections */
+.footer .grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem);
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer .grid .box h3{
+    font-size: 2rem;
+    color: var(--black);
+    margin: 1rem 0;    
+    padding-bottom: 1rem;
+    text-transform: capitalize;
+
+}
+
+.footer .grid .box a{
+    display: block;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--light-color);
+} 
+
+.footer .grid .box a i{
+    color: var(--main-color);
+    margin-right: (--main-color);
+    transition: .2s linear  ;
+}
+
+.footer .grid .box a:hover i{
+    margin-right: 2rem;
+
+}
+
+.footer .credit{
+    text-align: center;
+    padding: 3rem 2rem;
+    border-top: var(--border);
+    background-color: var(--white);
+    font-size: 2rem;
+    color: var(--light-color);
+    line-height: 1.5;
+}
+
+.footer .credit span{
+    color: var(--main-color);
+    text-transform: capitalize;
+}
+
